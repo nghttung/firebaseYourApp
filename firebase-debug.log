@@ -1,0 +1,196 @@
+[debug] [2017-08-21T20:46:02.863Z] ----------------------------------------------------------------------
+[debug] [2017-08-21T20:46:02.866Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\daunh\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-08-21T20:46:02.867Z] CLI Version:   3.9.2
+[debug] [2017-08-21T20:46:02.867Z] Platform:      win32
+[debug] [2017-08-21T20:46:02.867Z] Node Version:  v8.2.1
+[debug] [2017-08-21T20:46:02.868Z] Time:          Tue Aug 22 2017 03:46:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:46:02.868Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-21T20:46:02.914Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-21T20:46:02.915Z] > authorizing via signed-in user
+[debug] [2017-08-21T20:46:02.918Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-21T20:46:02.918Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/Oos_gGz-W2-FyQiD_akWumj2ZS18kH-V3E4yOwNuW9o',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Aug 22 2017 03:46:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:46:03.330Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T20:46:03.370Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 03:46:03 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:46:04.442Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T20:46:04.444Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/react-c0655/tokens  
+ Tue Aug 22 2017 03:46:04 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:46:20.516Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\daunh\Desktop\Firebase'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2017-08-21T20:46:29.569Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/react-c0655  
+ Tue Aug 22 2017 03:46:29 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:46:29.571Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/react-c0655/apiKeys  
+ Tue Aug 22 2017 03:46:29 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:46:29.573Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 03:46:29 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:46:30.839Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T20:46:30.841Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1078261795639/clients/_:getWebAppConfig  
+ Tue Aug 22 2017 03:46:30 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:46:31.009Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T20:46:31.023Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T20:46:32.886Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-21T20:55:22.485Z] ----------------------------------------------------------------------
+[debug] [2017-08-21T20:55:22.489Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\daunh\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-08-21T20:55:22.490Z] CLI Version:   3.9.2
+[debug] [2017-08-21T20:55:22.490Z] Platform:      win32
+[debug] [2017-08-21T20:55:22.490Z] Node Version:  v6.11.2
+[debug] [2017-08-21T20:55:22.491Z] Time:          Tue Aug 22 2017 03:55:22 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:55:22.491Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-21T20:55:22.514Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-21T20:55:22.515Z] > authorizing via signed-in user
+[debug] [2017-08-21T20:55:22.518Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 03:55:22 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:55:23.622Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T20:55:23.625Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/react-c0655/tokens  
+ Tue Aug 22 2017 03:55:23 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:55:24.552Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\daunh\Desktop\Firebase'...
+[info] 
+[warn] !  functions: Cannot start emulator. Please use Node version v6.11.1, you have v6.11.2
+
+[debug] [2017-08-21T20:55:28.606Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 03:55:28 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:55:29.917Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T20:55:29.919Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1078261795639/clients/_:getWebAppConfig  
+ Tue Aug 22 2017 03:55:29 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:55:31.115Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-21T20:59:56.663Z] ----------------------------------------------------------------------
+[debug] [2017-08-21T20:59:56.668Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\daunh\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-08-21T20:59:56.669Z] CLI Version:   3.9.2
+[debug] [2017-08-21T20:59:56.669Z] Platform:      win32
+[debug] [2017-08-21T20:59:56.669Z] Node Version:  v6.11.1
+[debug] [2017-08-21T20:59:56.670Z] Time:          Tue Aug 22 2017 03:59:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:59:56.670Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-21T20:59:56.692Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-21T20:59:56.693Z] > authorizing via signed-in user
+[debug] [2017-08-21T20:59:56.697Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 03:59:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:59:57.771Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T20:59:57.772Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/react-c0655/tokens  
+ Tue Aug 22 2017 03:59:57 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T20:59:58.672Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\daunh\Desktop\Firebase'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Module version mismatch. Expected 48, got 57.
+[debug] [2017-08-21T20:59:59.265Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 03:59:59 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:00:00.537Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T21:00:00.539Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1078261795639/clients/_:getWebAppConfig  
+ Tue Aug 22 2017 04:00:00 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:00:01.737Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-21T21:00:27.528Z] ----------------------------------------------------------------------
+[debug] [2017-08-21T21:00:27.531Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\daunh\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-08-21T21:00:27.532Z] CLI Version:   3.9.2
+[debug] [2017-08-21T21:00:27.532Z] Platform:      win32
+[debug] [2017-08-21T21:00:27.532Z] Node Version:  v6.11.1
+[debug] [2017-08-21T21:00:27.533Z] Time:          Tue Aug 22 2017 04:00:27 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:00:27.533Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-21T21:00:27.550Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-21T21:00:27.550Z] > authorizing via signed-in user
+[debug] [2017-08-21T21:00:27.553Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 04:00:27 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:00:28.705Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T21:00:28.709Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/react-c0655/tokens  
+ Tue Aug 22 2017 04:00:28 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:00:29.576Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\daunh\Desktop\Firebase'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Module version mismatch. Expected 48, got 57.
+[debug] [2017-08-21T21:00:30.263Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 04:00:30 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:00:31.562Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T21:00:31.563Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1078261795639/clients/_:getWebAppConfig  
+ Tue Aug 22 2017 04:00:31 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:00:32.731Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-21T21:01:04.144Z] ----------------------------------------------------------------------
+[debug] [2017-08-21T21:01:04.148Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\daunh\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-08-21T21:01:04.148Z] CLI Version:   3.9.2
+[debug] [2017-08-21T21:01:04.149Z] Platform:      win32
+[debug] [2017-08-21T21:01:04.149Z] Node Version:  v6.11.1
+[debug] [2017-08-21T21:01:04.149Z] Time:          Tue Aug 22 2017 04:01:04 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:01:04.149Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-21T21:01:04.166Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-21T21:01:04.167Z] > authorizing via signed-in user
+[debug] [2017-08-21T21:01:04.170Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 04:01:04 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:01:05.262Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T21:01:05.267Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/react-c0655/tokens  
+ Tue Aug 22 2017 04:01:05 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:01:06.268Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\daunh\Desktop\Firebase'...
+[info] 
+[warn] !  functions: Cannot start emulator. Error: Module version mismatch. Expected 48, got 57.
+[debug] [2017-08-21T21:01:06.919Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 04:01:06 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:01:08.126Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T21:01:08.127Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1078261795639/clients/_:getWebAppConfig  
+ Tue Aug 22 2017 04:01:08 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:01:09.005Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-21T21:03:56.193Z] ----------------------------------------------------------------------
+[debug] [2017-08-21T21:03:56.196Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\daunh\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-08-21T21:03:56.196Z] CLI Version:   3.9.2
+[debug] [2017-08-21T21:03:56.196Z] Platform:      win32
+[debug] [2017-08-21T21:03:56.196Z] Node Version:  v8.4.0
+[debug] [2017-08-21T21:03:56.197Z] Time:          Tue Aug 22 2017 04:03:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:03:56.197Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-21T21:03:56.211Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-21T21:03:56.211Z] > authorizing via signed-in user
+[debug] [2017-08-21T21:03:56.214Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 04:03:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:03:57.453Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T21:03:57.454Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/react-c0655/tokens  
+ Tue Aug 22 2017 04:03:57 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:03:58.319Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\daunh\Desktop\Firebase'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2017-08-21T21:04:00.965Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/react-c0655  
+ Tue Aug 22 2017 04:04:00 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:04:00.966Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/react-c0655/apiKeys  
+ Tue Aug 22 2017 04:04:00 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:04:00.967Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/react-c0655  
+ Tue Aug 22 2017 04:04:00 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:04:02.243Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T21:04:02.244Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1078261795639/clients/_:getWebAppConfig  
+ Tue Aug 22 2017 04:04:02 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-08-21T21:04:02.403Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T21:04:02.499Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-21T21:04:03.390Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/react-c0655/us-central1/app
